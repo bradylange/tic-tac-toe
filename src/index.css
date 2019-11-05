@@ -1,0 +1,70 @@
+/*
+ * Developer: Brady Lange
+ * Date: 11/04/2019
+ * Description: Tic-Tac-Toe game front-end styles sheet.
+ */
+
+body 
+{
+	font: 16px "Times New Roman", Times, serif;
+	margin: 20px;
+}
+
+ol, ul 
+{
+	padding-left: 30px;
+}
+
+.square
+{
+	float: left;
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	background: red;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.square:focus
+{
+	outline: none;
+}
+
+.square:hover
+{
+	border: 5px solid grey
+}
+
+.square:active
+{
+	border: 5px solid lightgrey;
+}
+
+.board
+{
+	
+}
+
+.board-row
+{
+	
+}
+
+.game
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.game-info
+{
+	margin-left: 20px;
+}
+
+.status
+{
+	margin-bottom: 10px;
+}
+
